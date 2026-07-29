@@ -1,6 +1,57 @@
-ul {
-  list-style-type: none;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
   margin: 0;
   padding: 0;
+  background-color: lightgray;
+  font-family: Roboto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: lightslategray;
+}
+
+ul {
+  margin: auto;
+  list-style-type: none;
   overflow: hidden;
+}
+
+ul li {
+  float: right;
+}
+
+ul li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: white;
+}
+
+h1 {
+  margin-left: 0.1em;
+  color: white;
+}
+
+h2 {
+  margin-left: 0.5em;
+}
+
+main p {
+  background-color: aliceblue;
+  margin-right: 2em;
+  margin-left: 2em;
+  padding: 1em;
+  border-radius: 3em;
+}
+
+footer p {
+  font-style: italic;
+  text-align: center;
+  background-color: aliceblue;
+  margin: auto;
 }
