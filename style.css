@@ -71,3 +71,17 @@ dl dt dd {
   background-color: rgb(255, 0, 0);
   border-radius: 5px;
 }
+
+
+.logo {
+  max-width: 100%;
+  height: auto;
+  width: 50px;
+  object-fit: contain;
+}
+
+a {
+  text-decoration: none;
+  margin-left: 0.1em;
+  object-fit: contain;
+}
