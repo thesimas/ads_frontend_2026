@@ -33,12 +33,22 @@ ul li a {
 }
 
 h1 {
-  margin-left: 0.1em;
+  margin-left: 0.2em;
   color: white;
 }
 
 h2 {
-  margin-left: 0.5em;
+  margin-left: 0.6em;
+  color: cornflowerblue;
+}
+
+h3 {
+  margin-left: 2em;
+}
+
+h4 {
+  margin-left: 2em;
+  color: rgb(30, 76, 77);
 }
 
 main p {
@@ -58,7 +68,7 @@ footer p {
 
 
 dl {
-  margin-left: 0.1em;
+  margin-left: 3em;
 }
 
 dl dt{
@@ -70,6 +80,14 @@ dl dt dd {
 
   background-color: rgb(255, 0, 0);
   border-radius: 5px;
+}
+
+ol {
+  margin-left: 3em;
+}
+
+ol li {
+  padding: 2px;
 }
 
 
