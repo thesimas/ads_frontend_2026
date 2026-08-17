@@ -11,7 +11,4 @@
 - Aula 29/07/2026 - Introdução ao HTML com as tags 'h1','p' e 'div'.
 - Aula 31/07/2026 - Aprentação das Tags:  'hr', 'ul/li', 'ol', 'aside', 'section', ('dl' + 'dt' + 'dd') e etc;
 - Aula 04/08/2026 - Apresentação das Tags: 'img', 'a' - 'target'; 
-
-
-
-
+- Aula 14/08/2026 - Apresentação das Tags: 'table' e 'audio'; 
