@@ -62,8 +62,10 @@ main p {
 footer p {
   font-style: italic;
   text-align: center;
-  background-color: aliceblue;
+  background-color: lightslategray;
   margin: auto;
+  padding: 10px;
+  margin-top: 25px;
 }
 
 
@@ -102,4 +104,31 @@ a {
   text-decoration: none;
   margin-left: 0.1em;
   object-fit: contain;
+}
+
+table {
+  border-collapse: collapse;
+  border: 0.5px solid lightslategray;
+  background-color: whitesmoke;
+  margin: auto;
+  margin-top: 5px;
+  text-align: center;
+  width: 100%;
+  max-width: 700px;
+}
+
+table tr{
+}
+
+table tr th{
+  font-weight: bold;
+  padding: 10px;
+}
+
+table tr td{
+  padding: 10px;
+}
+
+#dias {
+  font-weight: bold;
 }
