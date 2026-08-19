@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universo Criativo - Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1><strong>Luciano Simas Junior</strong></h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Voltar</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form action="#" method="post">
+            <label for="titulo">Titulo do Livro: </label>
+            <input type="text" id="titulo" placeholder="Digite aqui...">
+            <br>
+            <label for="genero">Gênero do Livro: </label>
+            <select id="genero">
+                <option value="acao">Ação</option>
+                <option value="suspense">Suspense</option>
+                <option value="romance">Romance</option>
+            </select>
+            <br>
+            <label for="nota">Dê uma nota para o seu livro: </label>
+            <input type="number" min="0" max="5" id="nota">
+            <br>
+            <button type="submit">Enviar Formulário</button>
+        </form>
+    </main>
+</body>
+</html>

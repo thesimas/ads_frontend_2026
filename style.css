@@ -132,3 +132,7 @@ table tr td{
 #dias {
   font-weight: bold;
 }
+
+#calendario h2 {
+  text-align: center;
+}
