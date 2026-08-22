@@ -136,3 +136,30 @@ table tr td{
 #calendario h2 {
   text-align: center;
 }
+
+#form-pai {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+#formulario-livro {
+  padding: 10px;
+  border: 1px solid whitesmoke;
+  background-color: cadetblue;
+  border-radius: 10px;
+  width: 700px;
+}
+
+#formulario-livro label {
+  text-align: start;
+  padding: 2px;
+}
+
+#button-submit {
+  margin-top: 15px;
+  padding: 5px;
+  margin: auto;
+  display: block;
+}
